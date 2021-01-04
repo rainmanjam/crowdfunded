@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 677.47">
+  <defs>
+    <linearGradient id="a" x1="293.67" y1="987.86" x2="1548.06" y2="-232.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55b7b0"/>
+      <stop offset="1" stop-color="#f1f9a5"/>
+    </linearGradient>
+    <linearGradient id="b" x1="450.97" y1="998.78" x2="1872" y2="-384.15" xlink:href="#a"/>
+    <linearGradient id="c" x1="6014.99" y1="987.86" x2="7269.39" y2="-232.89" gradientTransform="matrix(-1 0 0 1 7087.32 0)" xlink:href="#a"/>
+    <linearGradient id="d" x1="6172.29" y1="998.78" x2="7593.33" y2="-384.15" gradientTransform="matrix(-1 0 0 1 7087.32 0)" xlink:href="#a"/>
+  </defs>
+  <g>
+    <path fill="url(#a)" d="M1366 0v158.69L683 553.03V394.57L1366 0z"/>
+    <path fill="url(#b)" d="M1366 203.78v79.35L683 677.47v-79.35l683-394.34z"/>
+    <path fill="url(#c)" d="M0 0v158.69l683 394.34V394.57L0 0z"/>
+    <path fill="url(#d)" d="M0 203.78v79.35l683 394.34v-79.35L0 203.78z"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+.tick {
+    font-size: 1rem;
+    white-space: nowrap;
+    font-family: arial, sans-serif;
+}
+
+.tick-flip,
+.tick-text-inline {
+    font-size: 1.4em;
+}
+
+.tick-label {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.tick-char {
+    width: 1.5em;
+}
+
+.tick-text-inline {
+    display: inline-block;
+    text-align: center;
+    min-width: 1em;
+}
+
+.tick-text-inline+.tick-text-inline {
+    margin-left: -.325em;
+}
+
+.tick-group {
+    margin: 0 .5em;
+    text-align: center;
+}
+
+
+
+.tick-text-inline {
+    color: rgb(255 , 255, 255) !important;
+}
+
+.tick-label {
+    color: rgb(255, 255, 255) !important;
+}
+
+.tick-flip-panel {
+    color: rgb(255, 255, 255) !important;
+}
+
+.tick-flip {
+    font-family: sans-serif !important;
+}
+
+.tick-flip-panel-text-wrapper {
+    line-height: 1.45 !important;
+}
+
+.tick-flip-panel {
+    background-color: rgb(59, 61, 59) !important;
+}
+
+.tick-flip {
+    border-radius: 0.12em !important;
+}
