@@ -1,0 +1,520 @@
+repo_name: rainmanjam/crowdfunded
+report_id: 6ac73b58428501f1560d4f5d64ba9654
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:35:21+00:00'
+requested_by: rainmanjam
+provider: github
+branch: main
+detected_tools_count: 39
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 8.20.1
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: '8.0'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/.github/workflows/codacy-analysis.yml
+  detection_source: ".github/workflows/codacy-analysis.yml"
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: aws/aws-sdk-php
+  description: AWS SDK for PHP - Use Amazon Web Services in your PHP project
+  package_url: https://packagist.org/aws/aws-sdk-php
+  version: 3.171.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: barryvdh/laravel-debugbar
+  description: PHP Debugbar integration for Laravel
+  package_url: https://packagist.org/barryvdh/laravel-debugbar
+  version: 3.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: cartalyst/stripe-laravel
+  description: Laravel 9 integration for the Cartalyst Stripe package
+  package_url: https://packagist.org/cartalyst/stripe-laravel
+  version: 13.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  version: 2.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: fideloper/proxy
+  description: Set trusted proxies for Laravel
+  package_url: https://packagist.org/fideloper/proxy
+  version: 4.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 8.20.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 3.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 5.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: stripe/stripe-php
+  description: Stripe PHP Library
+  package_url: https://packagist.org/stripe/stripe-php
+  version: 7.67.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/rainmanjam/crowdfunded/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Shannon Atkinson
+  last_updated_on: 2021-01-04 18:14:38.000000000 Z
